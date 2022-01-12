@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #3F3351;
+    color: #EEEEEE;
+}
+
+.search-bar{
+    width: 500px;
+    border-radius:7px;
+    border: none;
+}
+
+.mid-section{
+    padding-top: 50px;
+}
+
+
+@media screen and (max-width: 500px) {
+    .search-bar{
+        width: 500px;
+        border-radius:7px;
+        border: none;
+        margin-bottom:10px;
+    }
+
+    .search-date{
+        display: flex;
+        margin-left:150px;
+        margin-bottom:10px;
+    }
+}
